@@ -1,0 +1,90 @@
+body {
+   
+.titre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    
+h1 {
+align-self: center;
+margin-right: 550px;
+font-weight: bold;
+opacity: 0.7;
+
+}
+.plus {
+    align-self: center;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-right: 190px;
+}
+}
+.container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-family: sans-serif;
+width: 70%;
+margin-left: 130px;
+font-size: 12px;
+font-family: "OpenSans-light", sans-serif;
+
+.image1 {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.image2 {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.image3 {
+    width: 200px;
+   margin-left: 10px;
+   margin-right: 10px;
+  
+}
+.image4 {
+    width: 200px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.image5 {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.signe {
+    font-size: 50px;
+    margin-left: 20px ;
+    margin-top: 150px;
+    opacity: 0.5;
+}
+.text {
+    font-size: 12px;
+   opacity: 0.5;
+   margin-bottom: 5px;
+   padding-bottom: 0px;
+
+}
+}
+
+.imageEtoile {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    opacity: 0.5;
+    font-size: 10px;
+    font-weight: bold;
+   
+
+    .comment {
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+}
+}
