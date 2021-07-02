@@ -88,3 +88,28 @@ font-family: "OpenSans-light", sans-serif;
     }
 }
 }
+@media only screen and (max-width:768px) {
+ body  {
+     display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+    
+    .container {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    } 
+}
+}
+@media only screen and (max-width:480px) {
+    body {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        .container {
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
