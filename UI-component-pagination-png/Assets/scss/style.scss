@@ -1,66 +1,64 @@
-.pagination {
-   display:inline-flex;
+body {
+   display: flex;
    justify-content: center;
-    background-color: #E5E5E5;
-   height: 100px;
-   width: 70%;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-weight: bold;
+  
+  
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  background-color:#E5E5E5 ;
+  width: 70%;
+  height: 80px;
+  padding-top: 15px;
  
 
-
-   .number {
-   height: 30px;
-   width: 80px;
-   margin: 0 4px;
-   background-color:#3C444E;
-   border-radius:5px ;
-   margin-top: 30px;
-   padding-top: 10px;
-   color: #fff;
+   .list {
+      display: inline-flex;
+      flex-direction: row;
+      list-style-type: none;
+      text-decoration: none;
+      width: 90%;
+     
+      
+      li {
+        width: 100px;
+        margin: 0 4px;
+        height: 30px;
+        border-radius: 5px;
+        padding-top: 10px;
+        
+      
    
-  
-   
-   .a {
-     color: #fff;
-     font-size: 20px;
-     padding-left: 30px;
-     padding-top: 20px;
-     height: 50px;
-   
+         a {
+           
+            text-decoration: none;
+            font-size: 20px;  
+            padding-left: 20px;
+            color: #fff;
+             
+          }   
+      }
     }
    }
 }
-
- .gris {
-   text-decoration: none;
-   height: 30px;
-   width: 80px;
-   margin: 0 4px;
-   color: black;
-   margin-top: 30px;
-   padding-top: 10px;
-   height: 30px;
-   border-radius:5px ;
   
-}
-.points {
-   text-decoration: none;
-   height: 30px;
-   width: 80px;
-   margin: 0 4px;
-   color: black;
-   margin-top: 30px;
-   padding-top: 10px;
-   border-radius:5px ;
-  
-}
-li {
-   list-style-type: none;
-   text-decoration: none;
-}
-@media only screen and (max-width: 768px) {
-    
-}
-  
-
+   .normal {
+      background-color:#3C444E ;
    
+       }
+ .gris {
+      color: black;
+      background-color:#E5E5E5  ;
+   }
+
+ .point {
+    text-decoration: none;
+    color: black;
+ }
+   .bleu {
+      background-color: #3AA1E7;
+      
+   }
