@@ -1,9 +1,16 @@
-# Exercices Pixel-perfect
+# Pixel-perfect exercises
+------------------------
+
 ## Mission:
-* Reproduire à la perfection les différentes maquettes proposées.
-* Eviter les copier-coller sauf pour certaines images. 
-* Faire attention aux polices de caratère, aux images, icones,...
-##Instructions:
-* Utiliser Html et Scss (pas de Bootstrap)
-* Le Html doit être valide, semantic et respecter l'approche d'amélioration progressive.
-* Chaque projet doit également être responsive.
+--------------
+
+* Reproduce to perfection the various models offered.
+* Avoid copy and paste except for certain images.
+* Pay attention to fonts, images, icons, ...
+
+## Instructions:
+-------------
+
+* Use Html and Scss (no Bootstrap)
+* The Html must be valid, semantic and respect the progressive improvement approach.
+* Each project must also be responsive.
